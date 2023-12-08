@@ -1,21 +1,15 @@
 import { NgModule } from '@angular/core';
-import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [
-  {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
-  {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-];
+import { RouterModule } from '@angular/router';
+import { HomePage } from './home/home.page';
+import { ProfilePage } from './page/profile/profile.page';
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+    RouterModule.forRoot([
+      {path: '', component: HomePage},
+      {path: 'profile', component: ProfilePage},
+
+    ])
   ],
   exports: [RouterModule]
 })

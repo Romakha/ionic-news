@@ -1,0 +1,60 @@
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar>
+    <ion-item lines="none" class="burger-menu__header">
+      <ion-img (click)="modalDismiss()" src="/assets/img/header/burger-close.svg"></ion-img>
+      <ion-img src="/assets/img/header/burger-logo.svg"></ion-img>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="register" [fullscreen]="true">
+  <div class="main-content">
+    <div class="auth-wrapper">
+      <p class="auth-title">Авторизация</p>
+
+      <ion-item lines="none">
+        <ion-label position="stacked">Почта</ion-label>
+        <ion-input placeholder="Email"></ion-input>
+      </ion-item>
+  
+      <ion-item lines="none">
+        <ion-label position="stacked">Имя</ion-label>
+        <ion-input placeholder="Имя"></ion-input>
+      </ion-item>
+  
+      <ion-button (click)="sendOtpCode()">Сохранить</ion-button>
+    </div>
+  </div>
+</ion-content>
+
+
+<ion-content *ngIf="!register" [fullscreen]="true">
+  <div class="main-content">
+    <div class="auth-wrapper">
+      <p class="auth-title">Регистрация</p>
+
+      <ion-item lines="none">
+        <ion-label position="stacked">Почта</ion-label>
+        <ion-input placeholder="Email"></ion-input>
+      </ion-item>
+  
+      <ion-item lines="none">
+        <ion-label position="stacked">Имя</ion-label>
+        <ion-input placeholder="Имя"></ion-input>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-label position="stacked">Пароль</ion-label>
+        <ion-input placeholder="Пароль"></ion-input>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-label position="stacked">Повторить пароль</ion-label>
+        <ion-input placeholder="Повторить пароль"></ion-input>
+      </ion-item>
+  
+      <ion-button (click)="sendOtpCode()">Сохранить</ion-button>
+      <p>Забыли пароль?</p>
+    </div>
+  </div>
+</ion-content>

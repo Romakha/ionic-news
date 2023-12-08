@@ -1,0 +1,33 @@
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar>
+    <ion-item lines="none" class="burger-menu__header">
+      <ion-img [routerLink]="['']" src="/assets/img/header/burger-close.svg"></ion-img>
+      <ion-img src="/assets/img/header/burger-logo.svg"></ion-img>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="main-content">
+    <p class="profil-title">Профиль</p>
+
+    <ion-item lines="none">
+      <div class="profile-img__wrapper">
+        <ion-img src="/assets/img/profile/profile-img.png"></ion-img>
+      </div>
+      <ion-text class="profile-img__text">Добавить фото профиля</ion-text>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-label position="stacked">Имя</ion-label>
+      <ion-input placeholder="Арман"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-label position="stacked">E-mail</ion-label>
+      <ion-input placeholder="test@infozakon.kz"></ion-input>
+    </ion-item>
+
+    <ion-button>Сохранить</ion-button>
+  </div>
+</ion-content>

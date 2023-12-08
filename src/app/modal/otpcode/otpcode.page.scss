@@ -1,0 +1,21 @@
+p {
+    text-align: center;
+}
+
+.title {
+    color: #164B60;
+}
+
+ion-item {
+    padding: 0 16px;
+
+    ion-label {
+        --color: #252525;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    ion-imput {
+        border: 1px solid #ABABAB;
+    }
+}

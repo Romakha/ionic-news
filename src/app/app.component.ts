@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AppService } from './servises/app.service';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+
+  isWeb = AppService.isWeb();
+
+  constructor(
+    private appService: AppService,
+  ) {}
 }
