@@ -81,8 +81,19 @@
 
 <ion-content [fullscreen]="true">
   <div class="main-content">
-    <div class="news-wrapper">
+    <nav class="scroll-nav">
+      <ul>
+        <li class="active">Политика</li> 
+        <li>Правоохранительные органы</li>
+        <li>Гос. органы</li>
+        <li>Суды</li>
+        <li>Жизнь и Общество</li>
+        <li>Фоторепортажи</li>
+        <li>Реклама</li>
+      </ul>
+    </nav>
 
+    <div class="news-wrapper">
       <ion-grid slot="start">
         <ion-item lines="none" class="title">
           <div class="title__vertical-line"></div>
@@ -282,17 +293,6 @@
           <div class="title__vertical-line"></div>
           <ion-text>Новости по рубрикам</ion-text>
         </ion-item>
-
-        <div *ngIf="false" class="category-scroll-line">
-          <ion-item lines="none">
-            <ion-text>Все</ion-text>
-            <ion-text>Политика</ion-text>
-            <ion-text>Правоохранительные органы</ion-text>
-            <ion-text>Гос. органы</ion-text>
-            <ion-text>Суды</ion-text>
-            <ion-text>Жизнь и общество</ion-text>
-          </ion-item>
-        </div>
 
         <div class="horizontally-line"></div>
         <ion-row>

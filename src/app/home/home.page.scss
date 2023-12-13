@@ -26,7 +26,43 @@
   }
 }
 
+.scroll-nav {
+  position: relative;
+  z-index: 2;
+  height: 2.5rem;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  display: none;
+
+  ul {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    margin-block: 0;
+    overflow-x: auto;
+    list-style: none;
+    text-align: center;
+    white-space: nowrap;
+
+    li {
+      margin: 0 10px;
+      padding-bottom: 7px;
+      color: #ABABAB;
+    }
+
+    .active {
+      color: #252525;
+      border-bottom: 3px solid #164B60;
+    }
+  }
+}
+
 @media screen and (max-width: 720px) {
+  .scroll-nav {
+    display: block;
+  }
+
   ion-card {
 
     .card-content {
