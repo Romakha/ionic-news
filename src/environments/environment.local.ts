@@ -5,12 +5,11 @@
 export const environment = {
   production: false,
   publicBucket: 'happytech-dev',
-  countries: 'https://store.happytech.app/happytech-dev/data/countries-dev.json',
-  sentryUrl: undefined,
+  countries: 'https://store.happytech.app/happytech-dev/data/countries-local.json',
+  sentryUrl: 'https://90c5c67f1b9946e18ba16ad22460fd3e@sentry.happycake.co/10',
   webVersion: 'AppVersion',
   googleWebClientId: '161117887195-tp9fcij8ma0eamoh9b8fed5pnm0k9euf.apps.googleusercontent.com',
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

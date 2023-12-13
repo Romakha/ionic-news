@@ -109,12 +109,17 @@ ion-header {
     ion-item {
       max-width: 1290px;
     }
+    
+    .info-top {
+      margin: 0 auto;
+    }
 
     .header-top-line {
       min-height: 74px;
       background: rgba(171, 171, 171, 0.13);
       display: flex;
       align-items: center;
+      justify-content: center;
 
       ion-item {
         --background: initial;
@@ -129,8 +134,7 @@ ion-header {
   .burger-menu {
     width: 100%;
     height: 100%;
-    background: #252525;
-    padding: 45px 20px;
+    background: white;
     z-index: 100;
     position: fixed;
     top: 0;
@@ -138,13 +142,15 @@ ion-header {
     transform: translate(-100%,0);
     transition: all .5s;
     overflow-y: scroll;
+    padding-bottom: 40px;
 
     p {
-      color: #fff;
+      color: #252525;
     }
 
     .burger-menu__header {
-      margin-bottom: 40px;
+      padding: 45px 16px 10px 16px;
+      background: #164B60;
 
       ion-img {
         margin-right: 16px;
@@ -160,17 +166,24 @@ ion-header {
       }
     }
 
-    ion-accordion-group {
+    ion-list {
+      max-width: 343px;
+      margin: 20px auto;
+
       ion-item {
         --height: 42px;
-        --color: #fff;
         --padding-bottom: 20px;
-        border-bottom: 1px solid #3d3d3df7;
+        border-bottom: 1px solid #3d3d3d3b;
 
-        ion-icon {
-          width: 24px;
+        ion-label {
+          --color: black;
         }
       }
+    }
+
+    .social {
+      max-width: 300px;
+      margin: 0 auto;
     }
   }
 
@@ -216,11 +229,13 @@ ion-card {
     ion-text {
       color: #A1A1A1;
       font-size: 13px;
-      margin-inline-start: 0px;
+      margin-inline-start: 5px;
     }
 
     ion-icon {
-      margin: 5px;
+      width: 12px;
+      height: 12px;
+      margin-left: 8px;
     }
   }
 }
@@ -234,6 +249,7 @@ ion-grid {
 }
 
 .main-news {
+  position: relative;
 
   ion-img {
     max-height: 500px;
@@ -244,6 +260,7 @@ ion-grid {
     position: absolute;
     bottom: 10px;
     left: 20px;
+    z-index: 10;
 
     ion-card-title {
       max-width: 750px;
@@ -256,10 +273,20 @@ ion-grid {
       --background: transparent;
 
       ion-text {
-        --color: #fff;
+        color: #fff;
       }
     }
   }
+}
+
+.main-news::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(transparent 50%, black 140%);
 }
 
 .news-wrapper {
@@ -331,6 +358,29 @@ ion-grid {
       margin-inline-start: 10px;
     }
   }
+
+  .main-news {
+    width: 100%;
+    height: 225px;
+
+    ion-img {
+      width: 100%;
+      height: 100%;
+    }
+
+    ion-item {
+      ion-text {
+        margin-inline-start: 5px;
+      }
+    } 
+
+    ion-card-header {
+      ion-card-title {
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+  }
 }
 
 
@@ -388,6 +438,12 @@ ion-grid {
     padding: 0 16px;
   }
 
+  .main-news {
+    ion-card-header {
+      padding-left: 0;
+    }
+  }
+
   ion-card {
     margin: 0 0 20px 0;
 
@@ -405,6 +461,7 @@ ion-grid {
       .header-top-line {
         background: #164B60;
         padding: 45px 16px 10px 16px;
+        justify-content: start;
 
         .burger-btn {
           display: block;
