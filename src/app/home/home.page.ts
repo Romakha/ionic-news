@@ -18,7 +18,7 @@ export class HomePage {
 
   async showNewsModal() {
     const modal = await this.modalCtrl.create({
-      component: AuthModal,
+      component: NewsModal,
       cssClass: 'full-modal'
     });
     modal.present();

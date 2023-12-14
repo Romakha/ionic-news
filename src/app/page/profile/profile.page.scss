@@ -1,11 +1,16 @@
 ion-header {
     ion-toolbar {
         --background: #164B60;
+        --padding-start: 16px;
 
         ion-item {
             --background: #164B60;
             margin-bottom: 0px;
             padding-top: 45px;
+
+            ion-img {
+                margin-right: 16px;
+            }
         }
     }
 }
@@ -33,6 +38,7 @@ ion-item {
         border: 1px solid #ABABAB;
         border-radius: 5px;
         --padding-start: 20px;
+        margin-top: 12px;
     }
 }
 
@@ -46,5 +52,4 @@ ion-button {
 .profile-img__wrapper {
     position: relative;
     margin-right: 20px;
-    margin-bottom: 40px;
 }

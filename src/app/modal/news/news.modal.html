@@ -2,8 +2,8 @@
   <ion-toolbar>
     <div class="header-top-line">
       <ion-item lines="none">
-        <ion-img slot="start" (click)="hiddenShowBurgerMenu()" src="/assets/img/header/burger.svg"></ion-img>
-        <ion-img slot="start" class="logo" src="/assets/img/header/logo-mobile.svg"></ion-img>
+        <ion-img slot="start" (click)="modalDismiss()" src="/assets/img/header/back-arrow.svg"></ion-img>
+        <ion-img slot="start" class="logo" src="/assets/img/header/burger-logo.svg"></ion-img>
         <ion-text slot="end" class="mobile-hidden" color="dark">Политика</ion-text>
         <ion-text slot="end" class="mobile-hidden" color="dark">Правоохранительные органы</ion-text>
         <ion-text slot="end" class="mobile-hidden" color="dark">Гос. органы</ion-text>
@@ -28,66 +28,6 @@
       <ion-text slot="end" class="mobile-hidden">Qaz</ion-text>
     </ion-item>
   </ion-toolbar>
-
-
-  <div class="burger-menu" [ngClass]="{'burger-menu__open': showModal}">
-    <ion-item lines="none" class="burger-menu__header">
-      <ion-img (click)="hiddenShowBurgerMenu()" src="/assets/img/header/burger-close.svg"></ion-img>
-      <ion-img src="/assets/img/header/burger-logo.svg"></ion-img>
-    </ion-item>
-    <ion-accordion-group color="dark">
-      <ion-accordion value="first">
-        <ion-item detail="true" slot="header" color="dark">
-          <ion-label>Политика</ion-label>
-        </ion-item>
-        <div class="ion-padding" slot="content">First Content</div>
-      </ion-accordion>
-      <ion-accordion value="second">
-        <ion-item detail="true" slot="header" color="dark">
-          <ion-label>Правоохранительные органы</ion-label>
-        </ion-item>
-        <div class="ion-padding" slot="content">Second Content</div>
-      </ion-accordion>
-      <ion-accordion value="third">
-        <ion-item detail="true" slot="header" color="dark">
-          <ion-label>Суды</ion-label>
-        </ion-item>
-        <div class="ion-padding" slot="content">Third Content</div>
-      </ion-accordion>
-      <ion-accordion value="5">
-        <ion-item detail="true" slot="header" color="dark">
-          <ion-label>Жизнь и Общество</ion-label>
-        </ion-item>
-        <div class="ion-padding" slot="content">Third Content</div>
-      </ion-accordion>
-      <ion-accordion value="6">
-        <ion-item detail="true" slot="header" color="dark">
-          <ion-label>Фоторепортажи</ion-label>
-        </ion-item>
-        <div class="ion-padding" slot="content">Third Content</div>
-      </ion-accordion>
-      <ion-accordion value="7">
-        <ion-item detail="true" slot="header" color="dark">
-          <ion-label>Видео</ion-label>
-        </ion-item>
-        <div class="ion-padding" slot="content">Third Content</div>
-      </ion-accordion>
-      <ion-accordion value="8">
-        <ion-item detail="true" slot="header" color="dark">
-          <ion-label>Реклама</ion-label>
-        </ion-item>
-        <div class="ion-padding" slot="content">Third Content</div>
-      </ion-accordion>
-    </ion-accordion-group>
-    <p>Мы в соцсетях</p>
-    <ion-item lines="none">
-      <ion-icon src="/assets/img/footer/facebook.svg"></ion-icon>
-      <ion-icon src="/assets/img/footer/telegram.svg"></ion-icon>
-      <ion-icon src="/assets/img/footer/inst.svg"></ion-icon>
-      <ion-icon src="/assets/img/footer/youtube.svg"></ion-icon>
-      <ion-icon src="/assets/img/footer/tiktok.svg"></ion-icon>
-    </ion-item>
-  </div>
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -108,9 +48,9 @@
               <ion-text>14 июля, 18:05</ion-text>
 
               <ion-icon slot="end" src="/assets/img/card/eye.svg"></ion-icon>
-              <ion-text slot="end">451</ion-text>
+              <ion-text slot="end" class="ion-no-margin">451</ion-text>
               <ion-icon slot="end" src="/assets/img/card/message.svg"></ion-icon>
-              <ion-text slot="end">14</ion-text>
+              <ion-text slot="end" class="ion-no-margin">14</ion-text>
             </ion-item>
           </div>
           <div slot="end" class="author-item">
@@ -177,7 +117,7 @@
     <ion-grid>
       <ion-row>
         <ion-col size="12" size-md="3">
-          <ion-img src="/assets/img/footer/logo-footer.svg"></ion-img>
+          <ion-img src="/assets/img/header/logo.svg"></ion-img>
         </ion-col>
 
         <ion-col size="12" size-md="3">

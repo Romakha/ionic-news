@@ -112,6 +112,14 @@ ion-header {
     
     .info-top {
       margin: 0 auto;
+
+      ion-icon {
+        margin-right: 7px;
+      }
+
+      ion-text {
+        margin: 0 20px 0 7px;
+      }
     }
 
     .header-top-line {
@@ -258,7 +266,7 @@ ion-grid {
 
   ion-card-header {
     position: absolute;
-    bottom: 10px;
+    bottom: -10px;
     left: 20px;
     z-index: 10;
 

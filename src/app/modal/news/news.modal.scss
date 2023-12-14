@@ -1,3 +1,14 @@
+ion-header {
+  ion-toolbar {
+    padding-left: 0;
+    padding-right: 0;
+
+    ion-img {
+      margin-right: 16px;
+    }
+  }
+}
+
 .author-block {
   display: flex;
   align-items: center;
@@ -21,6 +32,12 @@
       margin-left: 16px;
     }
   }
+}
+
+.author-item-mobile {
+  ion-icon {
+    margin-right: 10px;
+  } 
 }
 
 .img-news {

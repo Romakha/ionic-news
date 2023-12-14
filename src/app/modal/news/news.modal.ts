@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-news',
@@ -7,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsModal {
 
-  showModal = false;
+  constructor(
+    private modalCtrl: ModalController,
+  ) { }
 
-  constructor() { }
-
-  hiddenShowBurgerMenu() {
-    this.showModal = !this.showModal;
+  modalDismiss() {
+    this.modalCtrl.dismiss();
   }
 }
