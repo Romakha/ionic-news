@@ -1,0 +1,40 @@
+.text {
+    color: #252525;
+}
+
+.whatsapp {
+    margin-top: 20px;
+    
+    p {
+      color: #252525;
+      font-weight: 600;
+    }
+  }
+
+  .line {
+    border-bottom: 1px solid #D6D6D6;
+    margin: 20px 0;
+  }
+
+  .block-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    ion-img {
+        width: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        margin-left: 12px;
+        color: #252525;
+    }
+  }
+
+
+  .download {
+    padding: 20px 15px;
+    background-color: #164b6007;
+    border-radius: 5px;
+  }

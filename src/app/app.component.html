@@ -1,17 +1,17 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
 
-  <ion-tabs *ngIf="isWeb">
+  <ion-tabs *ngIf="isWeb" class="ion-no-border">
     <ion-tab-bar slot="bottom" class="ff-regular">
       <ion-tab-button tab="main">
         <ion-icon src="assets/img/tabs/house.svg"></ion-icon>
         Главная
       </ion-tab-button>
-      <ion-tab-button tab="orders">
+      <ion-tab-button tab="category">
         <ion-icon src="assets/img/tabs/ruport.svg"></ion-icon>
         Рубрики
       </ion-tab-button>
-      <ion-tab-button tab="contacts">
+      <ion-tab-button tab="more">
         <ion-icon src="assets/img/tabs/more.svg"></ion-icon>
         Еще
       </ion-tab-button>

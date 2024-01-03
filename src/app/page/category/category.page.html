@@ -41,7 +41,7 @@
     </div>
 
     <ion-list>
-      <ion-item [routerLink]="['category']" button detail="true" lines="none">
+      <ion-item button detail="true" lines="none">
         <ion-label color="dark">Политика</ion-label>
       </ion-item>
       <ion-item button detail="true" lines="none">
@@ -82,12 +82,20 @@
 
 <ion-content [fullscreen]="true">
   <div class="main-content">
+    <nav class="scroll-nav">
+      <ul>
+        <li class="active">Политика</li> 
+        <li>Правоохранительные органы</li>
+        <li>Гос. органы</li>
+        <li>Суды</li>
+        <li>Жизнь и Общество</li>
+        <li>Фоторепортажи</li>
+        <li>Реклама</li>
+      </ul>
+    </nav>
+
     <div class="news-wrapper">
       <ion-grid slot="start">
-        <ion-item lines="none" class="title">
-          <div class="title__vertical-line"></div>
-          <ion-text>Актуальные новости</ion-text>
-        </ion-item>
 
         <ion-row>
           <ion-col>
@@ -576,127 +584,6 @@
               <ion-icon slot="end" src="/assets/img/card/message.svg"></ion-icon>
               <ion-text slot="end">14</ion-text>
             </ion-item>
-          </ion-card>
-        </ion-item>
-
-      </ion-list>
-    </div>
-
-    <div class="news-wrapper">
-      <ion-grid>
-        <ion-item lines="none" class="title">
-          <div class="title__vertical-line"></div>
-          <ion-text>Видео</ion-text>
-        </ion-item>
-        <div class="horizontally-line"></div>
-
-        <ion-row>
-          <ion-col size="12" size-md="4">
-            <ion-card class="news-photo">
-              <div class="card-content">
-                <div class="img-block">
-                  <ion-img src="/assets/img/card/3.svg"></ion-img>
-                  <div class="category-title">
-                    <ion-icon src="/assets/img/card/video.svg"></ion-icon>
-                  </div>
-                </div>
-
-                <ion-card-header>
-                  <ion-card-title>Чипирование кошек и собак: полиция будет проводить поквартирный обход</ion-card-title>
-                </ion-card-header>
-              </div>
-
-              <ion-item lines="none">
-                <ion-text>14 июля, 18:05</ion-text>
-
-                <ion-icon slot="end" src="/assets/img/card/eye.svg"></ion-icon>
-                <ion-text slot="end">451</ion-text>
-                <ion-icon slot="end" src="/assets/img/card/message.svg"></ion-icon>
-                <ion-text slot="end">14</ion-text>
-              </ion-item>
-            </ion-card>
-          </ion-col>
-
-          <ion-col size="12" size-md="4">
-            <ion-card class="news-photo">
-              <div class="card-content">
-                <div class="img-block">
-                  <ion-img src="/assets/img/card/3.svg"></ion-img>
-                  <div class="category-title">
-                    <ion-icon src="/assets/img/card/video.svg"></ion-icon>
-                  </div>
-                </div>
-
-                <ion-card-header>
-                  <ion-card-title>Чипирование кошек и собак: полиция будет проводить поквартирный обход</ion-card-title>
-                </ion-card-header>
-              </div>
-
-              <ion-item lines="none">
-                <ion-text>14 июля, 18:05</ion-text>
-
-                <ion-icon slot="end" src="/assets/img/card/eye.svg"></ion-icon>
-                <ion-text slot="end">451</ion-text>
-                <ion-icon slot="end" src="/assets/img/card/message.svg"></ion-icon>
-                <ion-text slot="end">14</ion-text>
-              </ion-item>
-            </ion-card>
-          </ion-col>
-
-          <ion-col size="12" size-md="4">
-            <ion-card class="news-photo">
-              <div class="card-content">
-                <div class="img-block">
-                  <ion-img src="/assets/img/card/3.svg"></ion-img>
-                  <div class="category-title">
-                    <ion-icon src="/assets/img/card/video.svg"></ion-icon>
-                  </div>
-                </div>
-
-                <ion-card-header>
-                  <ion-card-title>Чипирование кошек и собак: полиция будет проводить поквартирный обход</ion-card-title>
-                </ion-card-header>
-              </div>
-
-              <ion-item lines="none">
-                <ion-text>14 июля, 18:05</ion-text>
-
-                <ion-icon slot="end" src="/assets/img/card/eye.svg"></ion-icon>
-                <ion-text slot="end">451</ion-text>
-                <ion-icon slot="end" src="/assets/img/card/message.svg"></ion-icon>
-                <ion-text slot="end">14</ion-text>
-              </ion-item>
-            </ion-card>
-          </ion-col>
-        </ion-row>
-
-      <div class="horizontally-line"></div>
-
-      </ion-grid>
-
-      <ion-list slot="end" class="side-list-card">
-        <ion-item lines="none" class="title">
-          <div class="title__vertical-line"></div>
-          <ion-text>Что нового в спорте</ion-text>
-        </ion-item>
-
-        <ion-item lines="none">
-          <ion-card class="main-news">
-            <div>
-              <ion-img src="/assets/img/card/news.jpg"></ion-img>
-
-              <ion-card-header>
-                <ion-card-title>В КТЖ обсудили вопросы перевозок зерна нового</ion-card-title>
-                <ion-item lines="none">
-                  <ion-text>14 июля, 18:05</ion-text>
-
-                  <ion-icon slot="end" src="/assets/img/card/eye.svg"></ion-icon>
-                  <ion-text slot="end">451</ion-text>
-                  <ion-icon slot="end" src="/assets/img/card/message.svg"></ion-icon>
-                  <ion-text slot="end">14</ion-text>
-                </ion-item>
-              </ion-card-header>
-            </div>
           </ion-card>
         </ion-item>
 

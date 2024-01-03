@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { OtpcodeModal } from '../otpcode/otpcode.page';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-auth',
@@ -12,6 +13,7 @@ export class AuthModal implements OnInit {
   register = false;
 
   constructor(
+    private router: Router,
     private modalCtrl: ModalController,
   ) { }
 
@@ -23,10 +25,17 @@ export class AuthModal implements OnInit {
       component: OtpcodeModal,
       cssClass: 'otp-modal'
     });
-    modal.present();
+    await modal.present();
+    const modalRes = await modal.onWillDismiss();
+    console.log(modalRes)
+    if (modalRes.data == 'ok') {
+      this.modalDismiss();
+    }
   }
 
-  modalDismiss() {
-    this.modalCtrl.dismiss();
+  async modalDismiss() {
+    await this.router.navigateByUrl('main');
+    await this.modalCtrl.dismiss();
+
   }
 }

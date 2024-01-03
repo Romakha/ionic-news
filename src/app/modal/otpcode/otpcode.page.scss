@@ -4,6 +4,8 @@ p {
 
 .title {
     color: #164B60;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 ion-item {
@@ -15,7 +17,11 @@ ion-item {
         font-size: 16px;
     }
 
-    ion-imput {
+    ion-imput { 
+        min-height: 57px;
         border: 1px solid #ABABAB;
+        border-radius: 5px;
+        --padding-start: 20px;
+        margin-top: 12px;
     }
 }

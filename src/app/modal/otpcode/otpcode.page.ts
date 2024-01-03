@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-otpcode',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OtpcodeModal implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router,
+    private modalCtrl: ModalController,
+  ) { }
 
   ngOnInit() {
   }
 
+  async modalDismiss() {
+    await this.router.navigateByUrl('main');
+    this.modalCtrl.dismiss('ok');
+  }
 }
