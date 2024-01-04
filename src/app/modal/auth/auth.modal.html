@@ -52,6 +52,15 @@
         <ion-label position="stacked">Повторить пароль</ion-label>
         <ion-input placeholder="Повторить пароль"></ion-input>
       </ion-item>
+
+      <ion-button *ngIf="isAppleOS" (click)="signInWithApple()" class="apple-sign-btn fs-18">
+        <ion-icon src="assets/img/exit/apple.svg"></ion-icon>
+        {{ 'auth.btn.apple' | transloco }}
+      </ion-button>
+      <ion-button (click)="signInWithGoogle()" class="google-sign-btn fs-18">
+        <ion-img src="assets/img/exit/google.svg"></ion-img>
+        <ion-text color="secondary">{{ 'auth.btn.google' | transloco }}</ion-text>
+      </ion-button>
   
       <ion-button (click)="modalDismiss()">Сохранить</ion-button>
       <p>Забыли пароль?</p>
