@@ -1,7 +1,7 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
 
-  <ion-tabs *ngIf="isWeb" class="ion-no-border">
+  <ion-tabs *ngIf="!isWeb" class="ion-no-border">
     <ion-tab-bar slot="bottom" class="ff-regular">
       <ion-tab-button tab="main">
         <ion-icon src="assets/img/tabs/house.svg"></ion-icon>

@@ -33,37 +33,7 @@ export class AuthModal implements OnInit {
     }
   }
 
-  /*async signInWithApple() {
-    try {
-      this.appService.showLoader();
-      const token = await this.auth.signInWithApple();
-      if (token) {
-        this.token = token;
-        await this.onAuthSuccess();
-      }
-    } catch (err: any) {
-      console.error('failed to sign in', err);
-    } finally {
-      this.appService.hideLoader();
-    }
-  }
 
-  async signInWithGoogle() {
-    this.loading.google = true;
-    try {
-      this.appService.showLoader();
-      const token = await this.auth.signInWithGoogle();
-      if (token) {
-        this.token = token;
-        await this.onAuthSuccess();
-      }
-    } catch (err: any) {
-      console.error('failed to sign in', err);
-    } finally {
-      this.loading.google = false;
-      this.appService.hideLoader();
-    }
-  }*/
 
   async modalDismiss() {
     await this.router.navigateByUrl('main');
@@ -73,7 +43,6 @@ export class AuthModal implements OnInit {
 }
 
 /*
-
 async signInWithGoogle(): Promise<string | undefined> {
   const user = await GoogleAuth.signIn();
   return firstValueFrom(this.authResource.signInWithGoogle({
@@ -118,4 +87,36 @@ private async onAuthSuccess() {
       await this.router.navigateByUrl('/cities');
     }
   }
-}*/
+}
+
+  async signInWithApple() {
+    try {
+      this.appService.showLoader();
+      const token = await this.auth.signInWithApple();
+      if (token) {
+        this.token = token;
+        await this.onAuthSuccess();
+      }
+    } catch (err: any) {
+      console.error('failed to sign in', err);
+    } finally {
+      this.appService.hideLoader();
+    }
+  }
+
+  async signInWithGoogle() {
+    this.loading.google = true;
+    try {
+      this.appService.showLoader();
+      const token = await this.auth.signInWithGoogle();
+      if (token) {
+        this.token = token;
+        await this.onAuthSuccess();
+      }
+    } catch (err: any) {
+      console.error('failed to sign in', err);
+    } finally {
+      this.loading.google = false;
+      this.appService.hideLoader();
+    }
+  }*/
