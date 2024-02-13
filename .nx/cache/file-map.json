@@ -74,19 +74,19 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "11312791937174707621"
+        "hash": "15044010072536747774"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "16825685678643564031"
+        "hash": "14959807854647125455"
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "1970505787272918181"
+        "hash": "17483849513045097816"
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "16211205221135136143"
+        "hash": "34467219621317931"
       },
       {
         "file": ".vscode/extensions.json",
@@ -314,7 +314,7 @@
       },
       {
         "file": "angular.json",
-        "hash": "10770311091791350595"
+        "hash": "13725719023626870629"
       },
       {
         "file": "capacitor.config.ts",
@@ -323,6 +323,610 @@
       {
         "file": "config.xml",
         "hash": "7810442213187705365"
+      },
+      {
+        "file": "docs/3rdpartylicenses.txt",
+        "hash": "16882340072146009268"
+      },
+      {
+        "file": "docs/browser/assets/icon/favicon.png",
+        "hash": "17482944836898362639"
+      },
+      {
+        "file": "docs/browser/assets/img/author-img.jpg",
+        "hash": "1283961819130669172"
+      },
+      {
+        "file": "docs/browser/assets/img/card/2.svg",
+        "hash": "18019383536177671048"
+      },
+      {
+        "file": "docs/browser/assets/img/card/3.svg",
+        "hash": "1111196034032987536"
+      },
+      {
+        "file": "docs/browser/assets/img/card/4.svg",
+        "hash": "14011315775964514364"
+      },
+      {
+        "file": "docs/browser/assets/img/card/5.svg",
+        "hash": "15736869535610767285"
+      },
+      {
+        "file": "docs/browser/assets/img/card/eye.svg",
+        "hash": "2527866844644313491"
+      },
+      {
+        "file": "docs/browser/assets/img/card/message.svg",
+        "hash": "726384357577745275"
+      },
+      {
+        "file": "docs/browser/assets/img/card/news.jpg",
+        "hash": "6058097274840506809"
+      },
+      {
+        "file": "docs/browser/assets/img/card/train.jpg",
+        "hash": "2381494068644829753"
+      },
+      {
+        "file": "docs/browser/assets/img/card/video.svg",
+        "hash": "15568343337721638442"
+      },
+      {
+        "file": "docs/browser/assets/img/file.svg",
+        "hash": "485751465031818550"
+      },
+      {
+        "file": "docs/browser/assets/img/footer/facebook.svg",
+        "hash": "7699900589260356733"
+      },
+      {
+        "file": "docs/browser/assets/img/footer/inst.svg",
+        "hash": "3668499355224446022"
+      },
+      {
+        "file": "docs/browser/assets/img/footer/logo-footer.svg",
+        "hash": "12016072935402222437"
+      },
+      {
+        "file": "docs/browser/assets/img/footer/telegram.svg",
+        "hash": "12350724645222606370"
+      },
+      {
+        "file": "docs/browser/assets/img/footer/tiktok.svg",
+        "hash": "9078411907050181648"
+      },
+      {
+        "file": "docs/browser/assets/img/footer/ws.svg",
+        "hash": "8455776131942932376"
+      },
+      {
+        "file": "docs/browser/assets/img/footer/youtube.svg",
+        "hash": "10620139263543598102"
+      },
+      {
+        "file": "docs/browser/assets/img/header/back-arrow.svg",
+        "hash": "805040788071450134"
+      },
+      {
+        "file": "docs/browser/assets/img/header/burger-close.svg",
+        "hash": "9820693172156129227"
+      },
+      {
+        "file": "docs/browser/assets/img/header/burger-logo.svg",
+        "hash": "1967319553242238940"
+      },
+      {
+        "file": "docs/browser/assets/img/header/burger-logo1.svg",
+        "hash": "11122479053671336375"
+      },
+      {
+        "file": "docs/browser/assets/img/header/burger.svg",
+        "hash": "11477854743024769862"
+      },
+      {
+        "file": "docs/browser/assets/img/header/cloud.svg",
+        "hash": "18366188750376579994"
+      },
+      {
+        "file": "docs/browser/assets/img/header/logo.svg",
+        "hash": "5465965526400981439"
+      },
+      {
+        "file": "docs/browser/assets/img/header/logo1.svg",
+        "hash": "12114623708625084705"
+      },
+      {
+        "file": "docs/browser/assets/img/header/usd.svg",
+        "hash": "9664529636763625346"
+      },
+      {
+        "file": "docs/browser/assets/img/icons/camera.svg",
+        "hash": "8646013269780522323"
+      },
+      {
+        "file": "docs/browser/assets/img/icons/facebook.svg",
+        "hash": "817440730966056874"
+      },
+      {
+        "file": "docs/browser/assets/img/icons/instagramm.svg",
+        "hash": "15465835266534893342"
+      },
+      {
+        "file": "docs/browser/assets/img/icons/search.svg",
+        "hash": "5536975580579712872"
+      },
+      {
+        "file": "docs/browser/assets/img/icons/telegramm.svg",
+        "hash": "11276801505616821570"
+      },
+      {
+        "file": "docs/browser/assets/img/icons/twitter.svg",
+        "hash": "15628063924924309595"
+      },
+      {
+        "file": "docs/browser/assets/img/icons/vk.svg",
+        "hash": "4629484148564549520"
+      },
+      {
+        "file": "docs/browser/assets/img/icons/watsapp.svg",
+        "hash": "7902388469725153464"
+      },
+      {
+        "file": "docs/browser/assets/img/more/massage.svg",
+        "hash": "18056996122059874650"
+      },
+      {
+        "file": "docs/browser/assets/img/more/phone.svg",
+        "hash": "10781820162028491092"
+      },
+      {
+        "file": "docs/browser/assets/img/more/piont.svg",
+        "hash": "12805418143796435236"
+      },
+      {
+        "file": "docs/browser/assets/img/profile/profile-img.png",
+        "hash": "14112219441783110154"
+      },
+      {
+        "file": "docs/browser/assets/img/tabs/house.svg",
+        "hash": "11360508606289598712"
+      },
+      {
+        "file": "docs/browser/assets/img/tabs/more.svg",
+        "hash": "10757025048519866902"
+      },
+      {
+        "file": "docs/browser/assets/img/tabs/ruport.svg",
+        "hash": "1668017941985929974"
+      },
+      {
+        "file": "docs/browser/assets/img/tokaev.jpg",
+        "hash": "1759945087803021280"
+      },
+      {
+        "file": "docs/browser/assets/img/whatsApp.svg",
+        "hash": "18229322157092914892"
+      },
+      {
+        "file": "docs/browser/assets/shapes.svg",
+        "hash": "6713572288142939778"
+      },
+      {
+        "file": "docs/browser/chunk-2VLDZJUE.js",
+        "hash": "3998274967624726934"
+      },
+      {
+        "file": "docs/browser/chunk-2WNWRKHP.js",
+        "hash": "1145315031953804830"
+      },
+      {
+        "file": "docs/browser/chunk-2ZGIDTEB.js",
+        "hash": "10840684359948262280"
+      },
+      {
+        "file": "docs/browser/chunk-2ZHH7XIY.js",
+        "hash": "856825088218065586"
+      },
+      {
+        "file": "docs/browser/chunk-3OWOS3ZS.js",
+        "hash": "10126580054491937906"
+      },
+      {
+        "file": "docs/browser/chunk-42SMF4DL.js",
+        "hash": "6925804848127723407"
+      },
+      {
+        "file": "docs/browser/chunk-463TSCBK.js",
+        "hash": "4055051201286296468"
+      },
+      {
+        "file": "docs/browser/chunk-4BY5CPON.js",
+        "hash": "4535857076277141703"
+      },
+      {
+        "file": "docs/browser/chunk-4VZEYHXL.js",
+        "hash": "13174591531086575413"
+      },
+      {
+        "file": "docs/browser/chunk-4WHBBD2H.js",
+        "hash": "4254354922145337579"
+      },
+      {
+        "file": "docs/browser/chunk-4YWGZBGF.js",
+        "hash": "10045741018260842296"
+      },
+      {
+        "file": "docs/browser/chunk-5BCGV6OH.js",
+        "hash": "17890798737925113653"
+      },
+      {
+        "file": "docs/browser/chunk-5BVICU5W.js",
+        "hash": "12215111337958718050"
+      },
+      {
+        "file": "docs/browser/chunk-5CQ6LZUB.js",
+        "hash": "728870380675125577"
+      },
+      {
+        "file": "docs/browser/chunk-5KMLGAJF.js",
+        "hash": "12692117877216846892"
+      },
+      {
+        "file": "docs/browser/chunk-5Q3YILUJ.js",
+        "hash": "15623412575162242698"
+      },
+      {
+        "file": "docs/browser/chunk-5R5WJY4Z.js",
+        "hash": "7041200417602985625"
+      },
+      {
+        "file": "docs/browser/chunk-5X4HMWFG.js",
+        "hash": "2894580583354669604"
+      },
+      {
+        "file": "docs/browser/chunk-5XUONLRS.js",
+        "hash": "14300176301011541830"
+      },
+      {
+        "file": "docs/browser/chunk-5Z5ZZYNM.js",
+        "hash": "3953043229807213564"
+      },
+      {
+        "file": "docs/browser/chunk-5ZGO22WW.js",
+        "hash": "14783049318491346208"
+      },
+      {
+        "file": "docs/browser/chunk-62QVL2D6.js",
+        "hash": "8183556596888657227"
+      },
+      {
+        "file": "docs/browser/chunk-6AY5DRQE.js",
+        "hash": "396701746575440849"
+      },
+      {
+        "file": "docs/browser/chunk-6MEDLWZL.js",
+        "hash": "6169711041524192330"
+      },
+      {
+        "file": "docs/browser/chunk-7BTEV6UI.js",
+        "hash": "3231075201740341898"
+      },
+      {
+        "file": "docs/browser/chunk-7MXUAKDX.js",
+        "hash": "1690408843335961118"
+      },
+      {
+        "file": "docs/browser/chunk-7SAY2ZV5.js",
+        "hash": "9277077574505325124"
+      },
+      {
+        "file": "docs/browser/chunk-7VVHNCZT.js",
+        "hash": "11344002690978279563"
+      },
+      {
+        "file": "docs/browser/chunk-A3URFJNY.js",
+        "hash": "1492133152088060117"
+      },
+      {
+        "file": "docs/browser/chunk-BEEDNXGY.js",
+        "hash": "533132204810065420"
+      },
+      {
+        "file": "docs/browser/chunk-C6UWFK7U.js",
+        "hash": "3035714809803551251"
+      },
+      {
+        "file": "docs/browser/chunk-CNLRXSVG.js",
+        "hash": "15440859360831552606"
+      },
+      {
+        "file": "docs/browser/chunk-CRXNJMQZ.js",
+        "hash": "6368434549912611599"
+      },
+      {
+        "file": "docs/browser/chunk-DQHCB2EA.js",
+        "hash": "12799005704479459641"
+      },
+      {
+        "file": "docs/browser/chunk-DWIMXDRM.js",
+        "hash": "15946614275610154782"
+      },
+      {
+        "file": "docs/browser/chunk-EBSR6VOD.js",
+        "hash": "18437199838050485567"
+      },
+      {
+        "file": "docs/browser/chunk-EBZYKIZY.js",
+        "hash": "12488549840893696036"
+      },
+      {
+        "file": "docs/browser/chunk-F4SUHPZ2.js",
+        "hash": "8995504861248346378"
+      },
+      {
+        "file": "docs/browser/chunk-FQ65QLOX.js",
+        "hash": "13712875855908289260"
+      },
+      {
+        "file": "docs/browser/chunk-FYFXZLM2.js",
+        "hash": "13762420430471836249"
+      },
+      {
+        "file": "docs/browser/chunk-FZERLKOH.js",
+        "hash": "15505378531918134281"
+      },
+      {
+        "file": "docs/browser/chunk-GGMK22TH.js",
+        "hash": "17558942447057790829"
+      },
+      {
+        "file": "docs/browser/chunk-HKSSMYYD.js",
+        "hash": "11547128714914291733"
+      },
+      {
+        "file": "docs/browser/chunk-HSBHD62R.js",
+        "hash": "7332657148896201902"
+      },
+      {
+        "file": "docs/browser/chunk-I7FC6TZE.js",
+        "hash": "7972155468022945397"
+      },
+      {
+        "file": "docs/browser/chunk-II556ASW.js",
+        "hash": "16165114432819130903"
+      },
+      {
+        "file": "docs/browser/chunk-IOXKNT5V.js",
+        "hash": "2906496136082095461"
+      },
+      {
+        "file": "docs/browser/chunk-IWEPSPVU.js",
+        "hash": "9171314634155508064"
+      },
+      {
+        "file": "docs/browser/chunk-J7ZKGVW3.js",
+        "hash": "4888570667727285485"
+      },
+      {
+        "file": "docs/browser/chunk-JFOE5S4F.js",
+        "hash": "11505279511739309108"
+      },
+      {
+        "file": "docs/browser/chunk-K4OP7LY7.js",
+        "hash": "2824377089525621653"
+      },
+      {
+        "file": "docs/browser/chunk-K5N26FW6.js",
+        "hash": "3609929841258223172"
+      },
+      {
+        "file": "docs/browser/chunk-KDOSQZ7R.js",
+        "hash": "6255402715556380175"
+      },
+      {
+        "file": "docs/browser/chunk-KHGOOJP2.js",
+        "hash": "10099780678917350277"
+      },
+      {
+        "file": "docs/browser/chunk-KXYCAHUL.js",
+        "hash": "15921954081669591509"
+      },
+      {
+        "file": "docs/browser/chunk-L3NP3BNV.js",
+        "hash": "14511086833100073525"
+      },
+      {
+        "file": "docs/browser/chunk-L64OMW3N.js",
+        "hash": "13403094522968419256"
+      },
+      {
+        "file": "docs/browser/chunk-LXMMCVYT.js",
+        "hash": "15765778585787613149"
+      },
+      {
+        "file": "docs/browser/chunk-MAVLLQCE.js",
+        "hash": "670991549282702763"
+      },
+      {
+        "file": "docs/browser/chunk-N2HMBYKV.js",
+        "hash": "3824932783178957960"
+      },
+      {
+        "file": "docs/browser/chunk-NCFXJMK7.js",
+        "hash": "4962013812622887385"
+      },
+      {
+        "file": "docs/browser/chunk-NCKNRZRZ.js",
+        "hash": "14448619101226091790"
+      },
+      {
+        "file": "docs/browser/chunk-NGPZTR5V.js",
+        "hash": "16477267963915479045"
+      },
+      {
+        "file": "docs/browser/chunk-NO3B57LL.js",
+        "hash": "5486686982487283525"
+      },
+      {
+        "file": "docs/browser/chunk-O4ZESS7G.js",
+        "hash": "13274404462470265678"
+      },
+      {
+        "file": "docs/browser/chunk-OKISHM2Q.js",
+        "hash": "7540882731227485323"
+      },
+      {
+        "file": "docs/browser/chunk-OKX6PEVJ.js",
+        "hash": "14214291086495570616"
+      },
+      {
+        "file": "docs/browser/chunk-OP4IGXM3.js",
+        "hash": "11129945054387190773"
+      },
+      {
+        "file": "docs/browser/chunk-OZCRISS2.js",
+        "hash": "11183374288115361201"
+      },
+      {
+        "file": "docs/browser/chunk-P4ZFO6CE.js",
+        "hash": "2433815993782646750"
+      },
+      {
+        "file": "docs/browser/chunk-PP6HLSPF.js",
+        "hash": "12087807643078004476"
+      },
+      {
+        "file": "docs/browser/chunk-PWHLQ6AQ.js",
+        "hash": "6060317041004438631"
+      },
+      {
+        "file": "docs/browser/chunk-QGH35QNI.js",
+        "hash": "13216435181746599507"
+      },
+      {
+        "file": "docs/browser/chunk-QJKHKVKV.js",
+        "hash": "5013435797644234451"
+      },
+      {
+        "file": "docs/browser/chunk-QLKPP747.js",
+        "hash": "837446747808339738"
+      },
+      {
+        "file": "docs/browser/chunk-QVAI52ME.js",
+        "hash": "12355309552802496950"
+      },
+      {
+        "file": "docs/browser/chunk-RAR3466Y.js",
+        "hash": "1880664165978274598"
+      },
+      {
+        "file": "docs/browser/chunk-RIFXT7WQ.js",
+        "hash": "6565543691249032247"
+      },
+      {
+        "file": "docs/browser/chunk-RT5ZXZKZ.js",
+        "hash": "15554083498471313573"
+      },
+      {
+        "file": "docs/browser/chunk-S2R4FGNY.js",
+        "hash": "11874155776776316182"
+      },
+      {
+        "file": "docs/browser/chunk-SSCJVELF.js",
+        "hash": "16476418349817821333"
+      },
+      {
+        "file": "docs/browser/chunk-T3GVND2W.js",
+        "hash": "3504272930224564112"
+      },
+      {
+        "file": "docs/browser/chunk-T753RZCC.js",
+        "hash": "8275687124358521177"
+      },
+      {
+        "file": "docs/browser/chunk-TSA2G7LE.js",
+        "hash": "5132102196101308563"
+      },
+      {
+        "file": "docs/browser/chunk-UGLZGPK3.js",
+        "hash": "910944663839610632"
+      },
+      {
+        "file": "docs/browser/chunk-UPJYXXON.js",
+        "hash": "6465144850086424373"
+      },
+      {
+        "file": "docs/browser/chunk-VASSMKME.js",
+        "hash": "2368870363699899314"
+      },
+      {
+        "file": "docs/browser/chunk-VQ35AQCP.js",
+        "hash": "1613157614639421214"
+      },
+      {
+        "file": "docs/browser/chunk-VTD4CMBH.js",
+        "hash": "6919974172930022714"
+      },
+      {
+        "file": "docs/browser/chunk-WFGTKCLH.js",
+        "hash": "10949015610370161994"
+      },
+      {
+        "file": "docs/browser/chunk-XG4WIH3Z.js",
+        "hash": "14240842978698040921"
+      },
+      {
+        "file": "docs/browser/chunk-XHJXWWVK.js",
+        "hash": "17499855238043680905"
+      },
+      {
+        "file": "docs/browser/chunk-YFZBJ543.js",
+        "hash": "3068565889190987286"
+      },
+      {
+        "file": "docs/browser/chunk-YM4J4BJT.js",
+        "hash": "8980937484064134504"
+      },
+      {
+        "file": "docs/browser/chunk-YSQMVZV7.js",
+        "hash": "9866615956790623634"
+      },
+      {
+        "file": "docs/browser/chunk-YUCP47GW.js",
+        "hash": "15771912707934640787"
+      },
+      {
+        "file": "docs/browser/chunk-YVM34JWW.js",
+        "hash": "1298475002638307982"
+      },
+      {
+        "file": "docs/browser/chunk-Z57PICNE.js",
+        "hash": "1074245910226449510"
+      },
+      {
+        "file": "docs/browser/chunk-ZO6VLZID.js",
+        "hash": "16134107408425145494"
+      },
+      {
+        "file": "docs/browser/chunk-ZROQD65V.js",
+        "hash": "3854889341604742200"
+      },
+      {
+        "file": "docs/browser/index.html",
+        "hash": "7773312324847460226"
+      },
+      {
+        "file": "docs/browser/main-EXZX2MH2.js",
+        "hash": "16703581111248339137"
+      },
+      {
+        "file": "docs/browser/polyfills-VLI7M4HO.js",
+        "hash": "13036668259192164898"
+      },
+      {
+        "file": "docs/browser/styles-5INURTSO.css",
+        "hash": "3244421341483603138"
       },
       {
         "file": "ionic.config.json",
@@ -446,11 +1050,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "11257396844307820633"
+        "hash": "8888851263750815416"
       },
       {
         "file": "package.json",
-        "hash": "6135417641463436897"
+        "hash": "5042537690457371894"
       },
       {
         "file": "resources/README.md",
