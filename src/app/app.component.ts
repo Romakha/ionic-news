@@ -9,7 +9,7 @@ import { AuthModal } from './modal/auth/auth.modal';
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
 
   isWeb = AppService.isWeb();
 
@@ -17,9 +17,6 @@ export class AppComponent implements OnInit {
     private modalCtrl: ModalController,
   ) {}
 
-  ngOnInit() {
-    this.showLoginModal()
-  }
 
   async showLoginModal() {
     const modal = await this.modalCtrl.create({

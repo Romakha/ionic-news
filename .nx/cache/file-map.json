@@ -74,7 +74,7 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "15044010072536747774"
+        "hash": "16231336072475562649"
       },
       {
         "file": ".nx/cache/lockfile.hash",
@@ -914,7 +914,7 @@
       },
       {
         "file": "docs/browser/index.html",
-        "hash": "7773312324847460226"
+        "hash": "6811595298309931537"
       },
       {
         "file": "docs/browser/main-EXZX2MH2.js",
@@ -1342,7 +1342,7 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "6648637610400473141"
+        "hash": "17539547173067844453"
       },
       {
         "file": "src/app/app.module.ts",
